@@ -1,0 +1,127 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lunch Break Countdown</title>
+  <style>
+    * {
+        body {
+          background-image: url('rookie.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+  
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+}
+    body {
+      display: flex;
+      align-items: right;
+      justify-content: right;
+      height: 100vh;
+      background-color: #001f3f;
+      color: #000000;
+      font-family: Arial, sans-serif;
+      flex-direction: column;
+    }
+    .timer {
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
+
+
+    .sleeping {
+      position: relative;
+      width: 100px;
+      height: 150px;
+      background-color: #000000;
+      border-radius: 50px;
+      overflow: hidden;
+
+
+    }
+    .head {
+      width: 80px;
+      height: 80px;
+      background-color: #f10f0f;
+      border-radius: 50%;
+      position: absolute;
+      top: 10px;
+      left: 10px;
+    }
+
+
+    .zzz {
+      position: absolute;
+      top: 20px;
+      left: 120px;
+      font-size: 1.5em;
+      color: #050404;
+      animation: snore 2s infinite linear;
+    }
+
+
+
+    @keyframes snore {
+      0% { transform: translateY(0); opacity: 1; }
+      100% { transform: translateY(-40px); opacity: 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="timer" id="timer">Loading...</div>
+  <div class="sleeping">
+    <div class="head"></div>
+    <div class="zzz">Zzz...</div>
+  </div>
+
+
+
+
+  <script>
+    let alarmm = parseInt(prompt("How many minutes till lunch break?"));
+    let alarms = parseInt(prompt("How many seconds?"));
+
+    function displayTimer() {
+  document.getElementById("timer").innerHTML = `${alarmm.toString().padStart(2, '0')}:${alarms.toString().padStart(2, '0')}`;
+}
+
+
+
+
+
+    function countdown() {
+      if (alarmm == 0 && alarms == 0) {
+        document.getElementById("timer").innerHTML = "";
+        clearInterval(timerInterval);
+        return;
+      }
+      if (Math.random() < 0.025) alarms += 42;
+      if (alarmm == 0 && alarms == 1)
+        alarms += 20
+      if (alarms >= 60) {
+        alarmm += Math.floor(alarms / 60);
+        alarms = alarms % 60;
+      }
+      if (alarms == 0 && alarmm > 0) {
+        alarmm -- ;
+        alarms = 59;
+      } else {
+        alarms--;
+      }
+      displayTimer();
+    }
+    displayTimer();
+    const timerInterval = setInterval(countdown, 100);
+
+    
+
+  </script>
+</body>
+</html>
