@@ -56,7 +56,8 @@ For Software:
 
 ### Project Demo
 # Video
-countdown timer to lunch.mp4
+https://github.com/user-attachments/assets/1af01a30-74c2-46e6-87fd-38f812b5b2f8
+
 
 
 
