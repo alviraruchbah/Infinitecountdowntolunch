@@ -5,7 +5,7 @@
 
 
 ## Basic Details
-### Team Name: [Rookie Innovators]
+### Team Name: [The Rookie Innovators]
 
 
 ### Team Members
@@ -14,29 +14,33 @@
 - Member 3: [Fathima Afna z.m ] - [LBS College of engineering kasaragod]
 
 ### Project Description
-[2-3 lines about what your project does]
+The "Infinite Countdown to Lunch" is inspired by the amusingly useless feeling of waiting for something that never arrives—like that elusive lunch break that always feels a few minutes away. In a world of productivity, this project celebrates doing absolutely nothing useful: it simply gives you a countdown that keeps resetting, pushing lunchtime just a bit further away each time.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+The project humorously highlights a familiar, yet absurd human experience: the endless anticipation for a goal that keeps getting postponed. It mimics the feeling of waiting for a lunch break that feels perpetually out of reach—a metaphor for how our productivity-driven culture often delays satisfaction or rest.
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+The "Infinite Countdown to Lunch" is the solution, but in a humorous, ironic way. Instead of solving the problem directly, it celebrates the futility:
 
+It provides an endlessly resetting countdown, ensuring you never actually get to "lunchtime."
+By poking fun at the idea of waiting for something unreachable, it turns frustration into entertainment.
 ## Technical Details
+
 ### Technologies/Components Used
 For Software:
 - [python language]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- [HTML]
+- [math library]
+- [chatgpt]
 
 For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+- Laptop
+- hp intel i5 porcessor 16 gb ram
+- vs code
 
 ### Implementation
-For Software:
+For Software: for backend - python
+for front end- html
 # Installation
 [commands]
 
@@ -46,9 +50,15 @@ For Software:
 ### Project Documentation
 For Software:
 
-# Screenshots (Add at least 3)
+# Screenshots 
 
 ![Screenshot 2024-10-26 075751](https://github.com/user-attachments/assets/0769d420-4939-441a-ae2f-a3ea911f292b)
+
+### Project Demo
+# Video
+
+
+
 
 
 
