@@ -57,8 +57,9 @@ For Software:
 ### Project Demo
 # Video
 https://github.com/user-attachments/assets/1af01a30-74c2-46e6-87fd-38f812b5b2f8
+The "Infinite Countdown To Lunch" project humorously captures the universal anticipation and impatience many people feel when waiting for lunch. The video likely demonstrates a playful, creative depiction of this phenomenon by presenting:
 
-
+A Never-Ending Countdown: A clock or timer that perpetually teases viewers with a countdown that never quite reaches lunchtime. For example, it might repeatedly restart or slow down as it nears zero, mimicking the feeling of time dragging on when you’re eagerly waiting for food.
 
 
 
